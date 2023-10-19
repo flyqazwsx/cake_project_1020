@@ -1,0 +1,909 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\cake_project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\cake_project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\commodity-1.jpg",
+      "PackagePath": "staticwebassets\\img\\commodity-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\commodity-2-1.jpg",
+      "PackagePath": "staticwebassets\\img\\commodity-2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\commodity-2.jpg",
+      "PackagePath": "staticwebassets\\img\\commodity-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\commodity-3.jpg",
+      "PackagePath": "staticwebassets\\img\\commodity-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-1.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-2.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-3.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-4.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-7.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-8.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\course-1-9.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\icon1.png",
+      "PackagePath": "staticwebassets\\img\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\serve-1.jpg",
+      "PackagePath": "staticwebassets\\img\\serve-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\serve-2.jpg",
+      "PackagePath": "staticwebassets\\img\\serve-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\serve-3.svg",
+      "PackagePath": "staticwebassets\\img\\serve-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img\\serve-4.svg",
+      "PackagePath": "staticwebassets\\img\\serve-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\20a51d0b-6953-4dab-bef3-7b363e4d5d37.jpg",
+      "PackagePath": "staticwebassets\\img_size\\20a51d0b-6953-4dab-bef3-7b363e4d5d37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\2115af51-6af7-4e44-b1ab-b6c2294c4f21.jpg",
+      "PackagePath": "staticwebassets\\img_size\\2115af51-6af7-4e44-b1ab-b6c2294c4f21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\37bbce1a-d5f9-4b9c-afba-0001b083cbd0.jpg",
+      "PackagePath": "staticwebassets\\img_size\\37bbce1a-d5f9-4b9c-afba-0001b083cbd0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\5bd12dff-06a4-4386-8fe0-6351b943e953.jpg",
+      "PackagePath": "staticwebassets\\img_size\\5bd12dff-06a4-4386-8fe0-6351b943e953.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\aeae674b-80f6-4bf5-b08d-f794953ed036.jpg",
+      "PackagePath": "staticwebassets\\img_size\\aeae674b-80f6-4bf5-b08d-f794953ed036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\c0ee1dda-19e2-41bd-993d-1110af545913.jpg",
+      "PackagePath": "staticwebassets\\img_size\\c0ee1dda-19e2-41bd-993d-1110af545913.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\c2a552be-84b7-40ef-83e4-bc5cc67f8747.jpg",
+      "PackagePath": "staticwebassets\\img_size\\c2a552be-84b7-40ef-83e4-bc5cc67f8747.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\cc34dfbe-e7c3-42f3-a591-973df81a186c.jpg",
+      "PackagePath": "staticwebassets\\img_size\\cc34dfbe-e7c3-42f3-a591-973df81a186c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\commodity-1.1810.jpg",
+      "PackagePath": "staticwebassets\\img_size\\commodity-1.1810.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\commodity-2.2100.jpg",
+      "PackagePath": "staticwebassets\\img_size\\commodity-2.2100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\commodity-3.1280.jpg",
+      "PackagePath": "staticwebassets\\img_size\\commodity-3.1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-1.190.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-1.190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-2.1800.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-2.1800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-3.210.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-3.210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-4.190.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-4.190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-7.190.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-7.190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-8.190.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-8.190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\course-1-9.190.jpg",
+      "PackagePath": "staticwebassets\\img_size\\course-1-9.190.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\d4109e68-3a15-401d-bee3-bd90d3b704bb.jpg",
+      "PackagePath": "staticwebassets\\img_size\\d4109e68-3a15-401d-bee3-bd90d3b704bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\e52f56af-f1d1-4fe8-a487-22f6ec5bde62.jpg",
+      "PackagePath": "staticwebassets\\img_size\\e52f56af-f1d1-4fe8-a487-22f6ec5bde62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\img_size\\f7a82ec1-e3a3-47d2-b557-21ece7a1a26c.jpg",
+      "PackagePath": "staticwebassets\\img_size\\f7a82ec1-e3a3-47d2-b557-21ece7a1a26c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\commodity-1.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\commodity-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\commodity-2-1.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\commodity-2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\commodity-2.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\commodity-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\commodity-3.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\commodity-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-1.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-2.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-3.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-4.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-7.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-8.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\course-1-9.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\course-1-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\icon1.png",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\serve-1.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\serve-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\serve-2.jpg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\serve-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\serve-3.svg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\serve-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\程式\\C_sharp\\後端\\project\\cake_project\\wwwroot\\新增資料夾\\img\\serve-4.svg",
+      "PackagePath": "staticwebassets\\新增資料夾\\img\\serve-4.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.cake_project.props",
+      "PackagePath": "build\\cake_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.cake_project.props",
+      "PackagePath": "buildMultiTargeting\\cake_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.cake_project.props",
+      "PackagePath": "buildTransitive\\cake_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.cake_project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,272 @@
+@inject Cart_dbContext _cart_dbContext
+@{
+    Layout = null;
+    var categories = _cart_dbContext.PcategorySet.ToList();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>如月點心 - 聯絡我們</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <link href="~/img/icon1.png" rel="icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a asp-action="index" asp-controller="Cake" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">
+                <img width="50px" src="~/img/icon1.png" alt="如月點心icon" title="如月點心">  如月點心
+
+            </h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a asp-action="index" asp-controller="Cake" class="nav-item nav-link ">如月</a>
+                <a asp-action="about" asp-controller="Cake" class="nav-item nav-link">關於如月</a>
+                <a asp-action="serve" asp-controller="Cake" class="nav-item nav-link">我們的服務</a>
+                <a asp-action="commodity" asp-controller="Cake" class="nav-item nav-link">商品介紹</a>
+                <a asp-action="contact" asp-controller="Cake" class="nav-item nav-link active">聯絡我們</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbardrop" data-bs-toggle="dropdown">
+                            訂購
+                        </a>
+                        <ul class="dropdown-menu">
+                            @foreach (var item in categories)
+                            {
+                                <li>
+                                    <a class="dropdown-item" asp-action="product"
+                                       asp-route-Cid="@item.PCid">@item.PCName</a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+                <a asp-action="Login" asp-controller="Cake" class="nav-item nav-link">會員登入</a>
+                <a asp-action="Cart" asp-controller="Cake" class="nav-item nav-link">購物車</a>
+                <a asp-action="ProductUpload" asp-controller="Cake" class="nav-item nav-link">商品上架</a>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">聯絡我們</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="index" asp-controller="Cake">如月</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="about" asp-controller="Cake">關於如月</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="serve" asp-controller="Cake">我們的服務</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="commodity" asp-controller="Cake">商品介紹</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">聯絡我們</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">聯絡我們</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5>取得聯繫</h5>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Office</h5>
+                            <p class="mb-0">123 Street,Taiwan</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Mobile</h5>
+                            <p class="mb-0">+012 345 67890</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Email</h5>
+                            <p class="mb-0">info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7498751.1510162605!2d114.78531874945921!3d23.40631378744454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ef3065c07572f%3A0xe711f004bf9c5469!2sTaiwan!5e0!3m2!1sen!2sbd!4v1685713356789!5m2!1sen!2sbd"
+                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+
+                </div>
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">連結</h4>
+                    <a class="btn btn-link" asp-action="about" asp-controller="Cake">關於如月</a>
+                    <a class="btn btn-link" asp-action="serve" asp-controller="Cake">我們的服務</a>
+                    <a class="btn btn-link" asp-action="commodity" asp-controller="Cake">商品介紹</a>
+                    <a class="btn btn-link" asp-action="contact" asp-controller="Cake">聯絡我們</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">聯絡我們</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street,Taiwan</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/home"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://zh-tw.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">營業時間</h4>
+                    <p class="mb-2">周一 ~ 週五</p>
+                    <p class="mb-2">09:00 ~ 22:00</p>
+                    <p class="mb-2">周六 ~ 週日</p>
+                    <p class="mb-2">08:00 ~ 23:00</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">本網站引用資源連結</h4>
+                    <p>本網站為學術用途，非營利用途</p>
+                    <a class="btn btn-link" target="_blank" href="https://www.tientien.com.tw/">甜點控</a>
+                    <a class="btn btn-link" target="_blank" href="https://ponpie.tw/">PONPIE</a>
+                    <a class="btn btn-link" target="_blank"
+                        href="https://www.mumujbaker.com/products/cake14">MUMUJBAKER</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script src="~/js/main.js"></script>
+</body>
+
+</html>

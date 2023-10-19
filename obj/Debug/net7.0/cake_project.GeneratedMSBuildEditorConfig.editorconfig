@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = cake_project
+build_property.RootNamespace = cake_project
+build_property.ProjectDir = C:\Users\admin\Desktop\程式\C_sharp\後端\project\cake_project\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\admin\Desktop\程式\C_sharp\後端\project\cake_project
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/commodity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxjb21tb2RpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxwcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/ProductUpload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxQcm9kdWN0VXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Cake/serve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FrZVxzZXJ2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Shared/_ToastPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub2FzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/程式/C_sharp/後端/project/cake_project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8cpyrjtdlw

@@ -1,0 +1,463 @@
+@inject Cart_dbContext _cart_dbContext
+@{
+    Layout = null;
+    var categories = _cart_dbContext.PcategorySet.ToList();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>如月點心 - 商品介紹</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <link href="~/img/icon1.png" rel="icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a asp-action="index" asp-controller="Cake" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">
+                <img width="50px" src="~/img/icon1.png" alt="如月點心icon" title="如月點心">  如月點心
+
+            </h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a asp-action="index" asp-controller="Cake" class="nav-item nav-link ">如月</a>
+                <a asp-action="about" asp-controller="Cake" class="nav-item nav-link">關於如月</a>
+                <a asp-action="serve" asp-controller="Cake" class="nav-item nav-link">我們的服務</a>
+                <a asp-action="commodity" asp-controller="Cake" class="nav-item nav-link active">商品介紹</a>
+                <a asp-action="contact" asp-controller="Cake" class="nav-item nav-link">聯絡我們</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbardrop" data-bs-toggle="dropdown">
+                            訂購
+                        </a>
+                        <ul class="dropdown-menu">
+                            @foreach (var item in categories)
+                            {
+                                <li>
+                                    <a class="dropdown-item" asp-action="product"
+                                       asp-route-Cid="@item.PCid">@item.PCName</a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+                <a asp-action="Login" asp-controller="Cake" class="nav-item nav-link">會員登入</a>
+                <a asp-action="Cart" asp-controller="Cake" class="nav-item nav-link">購物車</a>
+                <a asp-action="ProductUpload" asp-controller="Cake" class="nav-item nav-link">商品上架</a>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">商品介紹</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="index" asp-controller="Cake">如月</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="about" asp-controller="Cake">關於如月</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="serve" asp-controller="Cake">我們的服務</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">商品介紹</li>
+                            <li class="breadcrumb-item"><a class="text-white" asp-action="contact" asp-controller="Cake">聯絡我們</a></li>
+                            
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">人氣商品</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class="img-fluid" src="~/img/course-1-2.jpg" alt="繽紛彩虹千層" title="如月點心-商品3">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">繽紛彩虹千層</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class=" img-fluid" src="~/img/course-1-1.jpg" alt="香芋玫好" title="如月點心-商品4">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">香芋玫好</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class=" img-fluid" src="~/img/course-1-3.jpg" alt="甜蜜蜜" title="如月點心-商品5">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">甜蜜蜜</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="#">
+                        <img class="img-fluid position-absolute w-100 h-100" src="~/img/course-1-4.jpg" alt="貝禮詩生巧塔"
+                            title="如月點心-商品6" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                            style="margin:  1px;">
+                            <h5 class="m-0">貝禮詩生巧塔</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">當季商品</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="~/img/course-1-7.jpg" alt="草莓蕾蒂派" title="如月點心-商品7">
+
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">草莓蕾蒂派</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(5)</small>
+                            </div>
+                            <h5 class="mb-4">平凡卻不平凡的甜點
+                                香草莎布列帶出第一層風味
+                                中間夾層是手工草莓果醬與酸甜覆盆子</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="~/img/course-1-8.jpg" alt="我的藍莓夜" title="如月點心-商品8">
+
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">我的藍莓夜</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(5)</small>
+                            </div>
+                            <h5 class="mb-4">歐洲野生莓果果泥
+                                調製而成的藍莓風味乳酪
+                                新鮮藍莓滿滿覆蓋
+                                薰衣草酥脆派皮
+                            </h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="~/img/course-1-9.jpg" alt="豐禾日栗" title="如月點心-商品9">
+
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">豐禾日栗</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(5)</small>
+                            </div>
+                            <h5 class="mb-4">糖漬栗子與栗子泥是第一主角
+                                鐵觀音茶的濃厚茶香
+                                紅豆乳酪融合了一切美味</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">分享禮盒</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="~/img/commodity-1.jpg" alt="經典切片禮盒"
+                            title="如月點心-商品1" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">經典切片禮盒</h1>
+                    <p class="mb-4">一次擁有9種不同的經典澎派口味與親人好友一同分享分享甜甜分享生活</p>
+                    <div class="row gy-3 gx-4 mb-4">
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>內容物，共8-9片</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>可於各門市自由挑選8-9片切片派，拼成十吋大圓
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i
+                                    class="fa fa-arrow-right text-primary me-2"></i>金額為挑選品項加總，附贈五人份刀叉盤一組、生日插牌蠟燭一組
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i
+                                    class="fa fa-arrow-right text-primary me-2"></i>本產品含有堅果、麩質穀物及蛋奶類，不適合對其過敏體質者食用
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="~/img/commodity-3.jpg"
+                            alt="9入經典小塔禮盒" title="如月點心-商品2" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">9入經典小塔禮盒</h1>
+                    <p class="mb-4">澎湃吸睛適合聚會慶生，免分切超方便</p>
+                    <div class="row gy-3 gx-4 mb-4">
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>內容物，共9入</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>1入 (蛋奶素) 黃澄澄檸檬塔
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>2入 (蛋奶素) 香芋玫好
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>2入 (蛋奶素) 貝禮詩生巧
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>2入 (葷) 豐禾日栗
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>2入 (葷) 抹茶紅豆乳酪
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i
+                                    class="fa fa-arrow-right text-primary me-2"></i>本產品含有堅果、麩質穀物及蛋奶類，不適合對其過敏體質者食用
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">季節限定商品</h1>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="~/img/commodity-2-1.jpg" alt="冬季限定草莓卡士達塔"
+                            title="如月點心-商品10" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">冬季限定草莓卡士達塔</h1>
+                    <p class="mb-4">使用當季新鮮水果搭配手工塔皮,塔皮使用法國知名奶油製作,酥脆口感帶上濃濃的奶香味,水果塔類皆以健康減糖製作,好吃又不負擔</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>6吋</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>商品成分:</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>
+                                新鮮草莓
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>
+                                新鮮藍莓
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>蛋、牛奶</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>法國依思尼鮮奶油</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="mb-0"><i class="fa fa-thin fa-list-ul text-primary me-2"></i>香草籽（蛋奶素可食用）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">連結</h4>
+                    <a class="btn btn-link" asp-action="about" asp-controller="Cake">關於如月</a>
+                    <a class="btn btn-link" asp-action="serve" asp-controller="Cake">我們的服務</a>
+                    <a class="btn btn-link" asp-action="commodity" asp-controller="Cake">商品介紹</a>
+                    <a class="btn btn-link" asp-action="contact" asp-controller="Cake">聯絡我們</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">聯絡我們</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street,Taiwan</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/home"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://zh-tw.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">營業時間</h4>
+                    <p class="mb-2">周一 ~ 週五</p>
+                    <p class="mb-2">09:00 ~ 22:00</p>
+                    <p class="mb-2">周六 ~ 週日</p>
+                    <p class="mb-2">08:00 ~ 23:00</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">本網站引用資源連結</h4>
+                    <p>本網站為學術用途，非營利用途</p>
+                    <a class="btn btn-link" target="_blank" href="https://www.tientien.com.tw/">甜點控</a>
+                    <a class="btn btn-link" target="_blank" href="https://ponpie.tw/">PONPIE</a>
+                    <a class="btn btn-link" target="_blank"
+                        href="https://www.mumujbaker.com/products/cake14">MUMUJBAKER</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script src="~/js/main.js"></script>
+</body>
+
+</html>

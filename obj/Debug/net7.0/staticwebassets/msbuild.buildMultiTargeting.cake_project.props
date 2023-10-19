@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\cake_project.props" />
+</Project>
